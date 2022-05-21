@@ -3,11 +3,11 @@ import requests
 import os
 
 # This variable sets which term to find a wikipedia page for
-search_term = 'Tacoma'
+search_term = ''
 # This variable sets the language to get the wikipedia page for
-language_code = 'en'
+language_code = ''
 # This variable sets the local directory to add the article or articles to
-output_dir = r'C:\Users\Taylor\Documents\Coding_Projects\Wiki_Output'
+output_dir = r''
 
 def check_encodings(text_string):
 
